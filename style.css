@@ -1,0 +1,311 @@
+/* Header */
+
+header {
+    display: flex; 
+    align-items: center; 
+    background-color: #808080; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+
+header img {
+    width: 150px; 
+    margin-right: 20px;
+}
+
+
+/* Create a class for the top-right menu */
+.top-right-menu {
+    list-style: none; 
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    color: #fff;
+}
+
+/* Style the menu items */
+.top-right-menu li {
+    display: inline; 
+    margin-right: 20px; 
+    text-decoration: none;
+}
+
+/* Change the background color of the menu links (buttons) on hover */
+.top-right-menu li a:hover {
+    background-color: #808080; 
+    color: #b6ff00; 
+}
+
+/* Style the links */
+.top-right-menu li a {
+    text-decoration: none; 
+    color: #fff; 
+ }
+
+
+/* Body */
+
+body {
+    margin: 0;
+    padding: 0;
+    /*background-color: #18fae5;*/
+}
+
+/* Style for the header text */
+header h1, header p {
+    margin: 0; 
+}
+
+.choose-us {
+    text-align: center;
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-bottom: 60px;
+}
+
+/* button that brings user to contact page*/
+.cta {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+
+/* Style the section */
+.feature-section {
+    text-align: center; 
+    margin-bottom: 60px;
+}
+
+/* Style each feature box */
+.feature {
+    display: inline-block; 
+    width: 20%; 
+    padding: 20px;
+    margin: 0 10px; 
+    text-align: left; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+}
+
+/* Style feature headings */
+.feature h3 {
+    font-size: 1.5em; 
+    margin: 0;
+}
+
+/* Style feature descriptions */
+.feature p {
+    margin: 10px 0;
+}
+
+
+
+
+/* button that brings user to contact page*/
+.explore {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+/* Define the default button style */
+.explore-button {
+    background-color: #4CAF50; /* Default background color */
+    color: #fff; /* Default text color */
+    padding: 10px 20px; /* Adjust padding to your preference */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Style the button on hover */
+.explore-button:hover {
+    background-color: #3498db; /* New background color on hover */
+    }
+
+
+/* News Letter */
+.newsletter-section {
+    text-align: center;
+}
+
+#newsletter-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* About us Page */
+
+/* Style the "Who We Are" section */
+.who-we-are {
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+/* Style headings within the section */
+.who-we-are h2, .who-we-are h3 {
+    color: #333; 
+    font-weight: bold;
+}
+
+/* Style the team member profiles */
+.team-member {
+    display: inline-block; 
+    margin: 20px; 
+}
+
+.team-member img {
+    width: 100px; 
+    border-radius: 50%; 
+}
+
+/* Style the client testimonials */
+.testimonial {
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    margin: 20px 0; 
+    border-radius: 5px; 
+}
+
+.testimonial p {
+    margin: 0; 
+}
+
+
+/* Contact Us Page */
+
+/* Style the default link color */
+.email-link {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+/* Style the link text color on hover */
+.email-link:hover {
+    color: #e7f800; 
+}
+
+.connect {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 20px;
+}
+
+
+/* Style the contact form */
+.contact-form {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.form-text {
+    flex: 1; 
+    text-align: left;
+    padding: 10px;
+}
+
+    .form-text h2 {
+        margin-top: 0;
+    }
+
+/* Style the form */
+.contact-form form {
+    flex: 2; 
+    text-align: left;
+    max-width: 100%; 
+}
+
+/* Style form elements */
+.contact-form label, .contact-form input, .contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%; 
+    box-sizing: border-box; 
+}
+
+
+
+
+/* Style the footer */
+footer {
+    background-color: #808080;
+    color: #fff;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the company info within the footer */
+.company-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the company logo within the company info */
+.company-info img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Style the social links */
+.social-links {
+    display: flex; /* Display the social links horizontally */
+    align-items: center;
+}
+
+/* Style the social link images within the social links */
+.social-links a {
+    text-decoration: none;
+}
+
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
